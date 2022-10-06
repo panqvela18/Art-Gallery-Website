@@ -1,0 +1,584 @@
+/* General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display','Outfit';
+    font-size: 18px;
+}
+/* Img Displays */
+
+.section-3 .sec3-1st-tabl-img,
+.section-3 .sec3-1st-desk-img,
+.art-image-tablet,
+.art-image-desk,
+.sec3-2nd-tablet-img,
+.sec3-2nd-desk-img{
+    display: none;
+}
+body{
+    height: 100vh;
+    width: 375px;
+    max-width: 100%;
+    background-color: #F2F2F2;
+}
+
+.hero{
+    background-image: url('./img/mobile/image-hero@2x.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    width: 100%;
+    height: 240px;
+}
+
+
+
+.container{
+    width: 375px;
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+.container h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding-right: 45px;
+    margin: 32px 0;
+}
+
+.container p {
+    font-weight: 300;
+    color: #444444;
+    font-family: 'Outfit';
+    margin-bottom: 60px;
+    line-height: 28px;
+}
+
+
+.section-1 a{
+    text-decoration: none;
+    background-color: #151515;
+    color: white;
+    padding: 24px 32px;
+    font-size: 20px;
+    font-weight: 800;
+    height: 72px;
+    width: 204px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+
+.btn-1{
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: -32%;
+    cursor: pointer;
+    transition: all 0.9s ease-in;
+    
+}
+
+/* Section 2 */
+
+
+
+.section-2 .art-image-tablet{
+    margin-top: 120px;
+    width: 100%;
+}
+.section-2 .article{
+    padding: 0 16px;
+}
+.section-2 .article h2{
+    color: #151515;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.first-h2{
+    margin-top: 25px;
+}
+
+.second-h2{
+    margin-bottom: 21px;
+}
+
+.section-2 p{
+    font-weight: 300;
+    color: #444444;
+    margin-bottom: 32px;
+}
+
+
+/* Section 3 */
+
+.section-3 .sec3-1st-mob-img
+{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 16px;
+}
+.section-3 .sec3-2nd-mob-img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.right-block {
+    padding: 0 16px;
+}
+.content{
+    background: #151515;
+    padding: 46px 25px 55px;
+    margin-bottom: 120px;
+}
+
+.content h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.content p{
+    color: white;
+    font-weight: 'Outfit';
+}
+
+/* Footer */
+
+.footer{
+    background-color: #151515;
+    color: white;
+    padding: 32px;
+}
+
+.footer .logo-light{
+    margin-bottom: 32px;
+    margin-top: 40px;
+}
+
+.footer p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Outfit';
+    margin-bottom: 40px;
+}
+
+.icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Location Styles */
+
+.art-image-tablet{
+    display: none;
+}
+.bg{
+    background-image: url('/img/mobile/image-map@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    z-index: -1;
+}
+
+.location-btn{
+    text-decoration: none;
+    background-color: #151515;
+    color: white;
+    font-size: 20px;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 208px;
+    height: 72px;
+    position: relative;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+
+.btn-2{
+    position: absolute;
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    border: none;
+    left: -12%;
+    cursor: pointer;
+}
+
+.smalls{
+    display:flex;
+    flex-direction: column;
+    line-height: 28px;
+}
+
+
+.location-info{
+    background-color: #151515;
+    padding:0 16px;
+}
+
+.location-info h1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 48px 0;
+}
+
+.right-info h4{
+    color: #D5966C;
+    font-size: 32px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    font-family: 'Outfit';
+}
+
+.right-info .smalls{
+    color: white;
+}
+
+.right-info p{
+    color: white;
+    font-family: 'Outfit';
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 56px;
+}
+
+
+.location-footer{
+    background-color: #D5966C;
+    padding: 0 32px;
+}
+
+.location-footer .logo-dark{   
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+.location-footer p{
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 32px;
+}
+
+.loc-icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.fb, .insta, .twitter{
+    color: #151515;
+    font-size: 25px;
+}
+
+/* Hover */
+.section-1 a:hover,.location-btn:hover{
+    background-color: #D5966C;
+    
+}
+
+.section-1 .btn-1:hover,.btn-2:hover{
+    background-color: #151515;
+}
+
+/* Tablet Styles */
+
+@media(min-width:768px){
+    body{
+        width: 768px;
+        background-color: #F2F2F2;
+        overflow-x: hidden;
+    }
+    .hero{
+        background-image: url('./img/tablet/image-hero@2x.jpg');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: contain;
+        width: 50%;
+        height: 700px;
+        position: relative;
+    }
+    .section-1{
+        position: absolute;
+        top: 10%;
+        left: 43%;
+        
+    }
+    .section-1 h1{
+        font-size: 70px;
+        padding-right: 100px;
+        margin-bottom: 48px;
+    }
+
+    .section-1 p{
+        line-height: 28px;
+        font-family: 'Outfit';
+        padding-right: 80px;
+        margin-bottom: 48px;
+    }
+
+    /* Section 2 */
+
+    .section-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 120px;
+        width:768px;
+        padding: 0 38px;
+        margin-bottom: 12px;
+    }
+    .section-2 .art-image-tablet{
+        order: 2;
+        width: 50%;
+        height: 400px;
+    }
+    .art-image{
+        display: none;
+    }
+    .art-image-tablet{
+        display: block;
+    }
+    
+    .section-2 .article{
+        order: 1;
+        width: 50%;
+        margin-right: 68px;
+        padding-top: 40px;
+    }
+
+    .section-2 .p{
+        font-family: 'Outfit';
+        width: 230px;
+    }
+    .second-h2{
+        padding-right: 50px;
+    }
+
+    /* Section 3 */
+
+    .section-3{
+        display: flex;
+        padding: 0 38px;
+        margin-bottom: 120px;
+    }
+    
+    
+    .sec3-1st-mob-img{
+        display: none;
+    }
+    .section-3 .sec3-1st-tabl-img{
+        display: block;
+        height: 750px;
+        order: 1;
+    }
+
+    .right-block .sec3-2nd-mob-img{
+        display: none;
+    }
+    .right-block{
+        order: 2;
+    }
+    .right-block .sec3-2nd-tablet-img {
+        display: block;
+        width: 280px;
+        height: 313px;
+        
+    }
+
+    .right-block .content {
+        height: 426px;
+        padding: 85px 28px;
+        margin-top: 11px;
+    }
+    .right-block .content h2{
+        line-height: 50px;
+    }
+    .right-block .content p{
+        line-height: 28px;
+        font-family: 'Outfit';
+        color: #FFFFFF;
+    }
+    .footer{
+        display: flex;
+        height: 216px;
+        align-items: baseline;
+        justify-content: space-between;
+        text-align: top;
+    }
+    .footer p{
+        width: 281px;
+        font-family: 'Outfit';
+        font-weight: 300;
+    }
+    .bg{
+        background-image: url('/img/tablet/image-map@2x.png');
+        
+    }
+    .location-info{
+        display: flex;
+        padding: 80px 39px;
+    }
+    .location-info h1{
+        padding: 0;
+        margin-right: 68px;
+    }
+
+    .location-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 59px 39px;
+    }
+    .location-footer .logo-dark{
+        padding: 0;
+    }
+    .location-footer p{
+        padding: 0;
+        width: 281px;
+    }
+    .location-btn{
+        margin-left: 65px;
+    }
+}
+
+/* Desktop  Style */
+
+@media(min-width:1200px){
+    body{
+        width: 1200px;
+        position: relative;
+    }
+    .bgs{
+        display: flex;
+    }
+    .black-bg{
+        background-color:#151515;
+        width: 40%;
+        height: 800px;    
+    }
+    .hero{
+        background-image: url('./img/desktop/image-hero@2x.jpg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        width: 50%;
+        height: 800px;
+        position: relative;
+    }
+    .section-1{
+        position: static;
+        width: 350px;
+        height: 400px;
+        margin-bottom: -230px;
+    }
+    .section-1 p{
+        margin-bottom: 64px;
+        width: 350px;
+    }
+    .section-1 h1{
+        color: white;
+        font-size: 90px;
+        position: absolute;
+        width: 514px;
+        padding-right: 89px;
+        left: 18%;
+        top: 23%;
+        mix-blend-mode:difference;
+    }
+    .desk-div{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 28%;
+        right: -11%;
+    }
+    .btn-1{
+        right: -22%
+    }
+    .section-2{
+        height: 400px;
+        padding: 0 165px;
+        margin-top: 120px;
+        margin-bottom: 35px;
+    }
+    .section-2 .art-image-tablet{
+        display: none;
+    }
+
+    .section-2 .art-image-desk{
+        display: block;
+        width: 645px;
+        order: 2;
+        margin-left: 120px;
+        height: 50vh;
+    }
+    .section-2 .article{
+        width: 350px;
+    }
+    .first-h2{
+        font-size: 60px;
+    }
+    .second-h2{
+        font-size: 60px;
+    }
+    .section-3{
+        padding: 0 165px;
+    }
+    .section-3 .sec3-1st-tabl-img{
+        display: none;
+    }
+
+    .section-3 .sec3-1st-desk-img{
+        display: block;
+        width: 577px;
+        height: 100vh;
+    }
+
+    .right-block .sec3-2nd-tablet-img{
+        display: none;
+    }
+    .right-block .sec3-2nd-desk-img{
+        display: block;
+        width: 445px;
+    }
+    .footer{
+        width: 1550px;
+        padding: 0 165px;
+    }
+
+    .bg{
+        background-image: url('/img/desktop/image-map@2x.png');
+        width: 1550px;
+    
+    }
+    .location-btn {
+        margin-left:190px
+    }
+    .location-info{
+        width: 1550px;
+        padding: 100px 165px;
+    }
+    .location-footer{
+        width: 1550px;
+        padding: 85px 165px;
+    }
+}
+
