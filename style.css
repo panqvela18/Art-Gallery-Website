@@ -55,7 +55,9 @@ body{
     margin-bottom: 60px;
     line-height: 28px;
 }
-
+.section-1{
+    margin-bottom: 120px;
+}
 
 .section-1 a{
     text-decoration: none;
@@ -429,7 +431,7 @@ body{
         font-weight: 300;
     }
     .bg{
-        background-image: url('/img/tablet/image-map@2x.png');
+        background-image: url('./img/tablet/image-map@2x.png');
         
     }
     .location-info{
@@ -565,7 +567,7 @@ body{
     }
 
     .bg{
-        background-image: url('/img/desktop/image-map@2x.png');
+        background-image: url('./img/desktop/image-map@2x.png');
         width: 1550px;
     
     }
