@@ -216,6 +216,7 @@ body{
     border: none;
     left: -12%;
     cursor: pointer;
+    transition: 0.3s ease-out;
 }
 
 .smalls{
@@ -287,16 +288,30 @@ body{
     color: #151515;
     font-size: 25px;
 }
+.btns a{
+    transition: 0.3s ease-out;
+}
+
 
 /* Hover */
-.section-1 a:hover,.location-btn:hover{
+/* .section-1 a:hover,.location-btn:hover{
     background-color: #D5966C;
     
 }
 
 .section-1 .btn-1:hover,.btn-2:hover{
     background-color: #151515;
+} */
+
+.btns:hover a{
+    background-color: #D5966C;
 }
+
+.btns:hover .btn-1,
+.btns:hover .btn-2{
+    background-color: #151515;
+}
+
 
 /* Tablet Styles */
 
@@ -581,4 +596,5 @@ body{
         padding: 85px 165px;
     }
 }
+
 
